@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f6f9;
+  background-color: #f9f9f9;
   color: #333;
   text-align: center;
 }
@@ -33,12 +33,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #ffcc00; /* jaune */
 }
 
 nav a.btn {
-  background-color: #ffcc00;
-  color: #003366;
+  background-color: #ffcc00; /* jaune */
+  color: #003366; /* bleu */
   padding: 8px 16px;
   border-radius: 25px;
   transition: all 0.3s ease;
@@ -70,10 +70,10 @@ h2 {
 }
 
 .projet {
-  background-color: #e6f0fa;
+  background-color: #fff8e1; /* jaune très clair */
   padding: 20px;
   margin-bottom: 20px;
-  border-left: 5px solid #003366;
+  border-left: 5px solid #003366; /* bleu */
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
