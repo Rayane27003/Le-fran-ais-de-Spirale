@@ -4,7 +4,95 @@
   <meta charset="UTF-8">
   <title>Le français de Spirale</title>
   <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background: #003366;
+      color: white;
+      padding: 30px 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    nav a.btn {
+      background-color: #ffcc00;
+      color: #003366;
+      padding: 8px 16px;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    nav a.btn:hover {
+      background-color: white;
+      color: #003366;
+    }
+
+    /* Bannière bleu et jaune */
+    .banner {
+      background: linear-gradient(90deg, #003366 50%, #ffcc00 50%);
+      color: #003366;
+      padding: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      color: #003366;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -18,10 +106,15 @@
     </nav>
   </header>
 
+  <!-- Bannière bleu et jaune -->
+  <div class="banner">
+    🌟 Bienvenue sur le site des projets de Spirale 🌟
+  </div>
+
   <main>
     <section class="hero">
-      <h2>Bienvenue sur le site des projets en français de l'école Spirale !</h2>
-      <p>Découvrez les créations de nos élèves : poèmes, récits, vidéos, et bien plus encore.</p>
+      <h2>Découvrez les créations de nos élèves</h2>
+      <p>Poèmes, récits, vidéos, et bien plus encore.</p>
     </section>
 
     <section id="projets">
