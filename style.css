@@ -49,15 +49,6 @@ nav a.btn:hover {
   color: #003366;
 }
 
-/* Bannière bleu et jaune */
-.banner {
-  background: linear-gradient(90deg, #003366 50%, #ffcc00 50%);
-  color: #003366;
-  padding: 20px;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
 main {
   padding: 40px 20px;
 }
